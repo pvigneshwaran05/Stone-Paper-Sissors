@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: white;
+}
+button{
+    border: 2px solid black;
+    margin: 30px;
+    font-size: 20px;
+    color: red;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+button img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+p{
+    font-size: 20px;
+}
+.head{
+    text-align: center;
+    /* background-color: yellow; */
+    font-size: 40px;
+    color: yellow;
+}
+.result{
+    text-align: center;
+    color: yellow;
+}
+#u,#c{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+}
+.main{
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.main p{
+    font-size: 30px;
+}
+.main img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+.green{
+    color: greenyellow;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.score{
+    margin-left: 48%;
+}
